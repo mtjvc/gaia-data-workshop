@@ -1,0 +1,6 @@
+ipython
+jupyter
+matplotlib
+numpy
+pandas
+uws-client
