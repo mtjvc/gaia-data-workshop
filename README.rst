@@ -11,7 +11,7 @@ gaia-data-workshop
 
 **Steps to take to get things going:**
 
-1. Create an account on <https://gaia.aip.de/> if you don't have one yet.
+1. Create an account on `gaia.aip.de <https://gaia.aip.de/>`_ if you don't have one yet.
 
 2. Install ``virtualenv`` package
 
