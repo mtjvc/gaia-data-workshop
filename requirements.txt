@@ -1,3 +1,4 @@
+healpy
 ipython
 jupyter
 matplotlib
