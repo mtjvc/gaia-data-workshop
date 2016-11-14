@@ -11,42 +11,48 @@ gaia-data-workshop
 
 **Steps to take to get things going:**
 
-1. Install ``virtualenv`` package
+1. Create an account on <https://gaia.aip.de/> if you don't have one yet.
+
+2. Install ``virtualenv`` package
 
 .. code-block:: bash
     
     pip install virtualenv
 
-2. Clone git repository
+3. Clone git repository
 
 .. code-block:: bash
 
     git clone https://github.com/mtjvc/gaia-data-workshop.git
 
-3. Create virtual environment (make sure python 2 is being used)
+4. Create virtual environment (make sure python 2 is being used) inside
+   the ..gaia-data-workshop directory.
 
 .. code-block:: bash
 
     virtualenv venv
 
-4. Activate virtual environment 
+5. Activate virtual environment 
 
 .. code-block:: bash
 
     source venv/bin/activate
 
-5. Install required packages
+6. Install required packages
 
 .. code-block:: bash
 
     pip install -r requirements.txt
 
-6. Start the notebook server
+7. Start the notebook server and open the notebook
 
 .. code-block:: bash
 
     jupyter notebook
 
+**Acknowledgements**
+
+Galaxy image credit: R. Hurt (SSC), JPL-Caltech, NASA
 
 
 
