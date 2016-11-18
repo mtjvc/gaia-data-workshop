@@ -30,7 +30,7 @@ gaia-data-workshop
 
 .. code-block:: bash
 
-    virtualenv venv
+    virtualenv -p /usr/bin/python2.7 venv
 
 5. Activate virtual environment 
 

@@ -66,7 +66,7 @@ function init(data) {
         blending:       THREE.NormalBlending,
         depthTest:      true,
         transparent:    true,
-        alphaTest: 0.3,
+        alphaTest: 0.5,
     });
 
     scene = new THREE.Scene();
@@ -95,7 +95,7 @@ function init(data) {
         values_color[ i + 1 ] = color.g;
         values_color[ i + 2 ] = color.b;
 
-        values_size[ i / 3] = 6.0 / (data[i/3].logg + 0.3);
+        values_size[ i / 3] = 10.0 / (data[i/3].logg + 1.0);
     }
 
     geometry.addAttribute( 'position', new THREE.BufferAttribute( positions, 3 ) );
