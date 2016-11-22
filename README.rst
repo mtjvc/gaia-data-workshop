@@ -1,4 +1,4 @@
-gaia-data-workshop
+Gaia Data Workshop
 ==================
 
 **Tutorial for the Gaia Data Workshop, Heidelberg, November 21-24**
@@ -11,40 +11,38 @@ gaia-data-workshop
 
 **Steps to take to get things going:**
 
-1. Create an account on `gaia.aip.de <https://gaia.aip.de/>`_ if you don't have one yet.
-
-2. Install ``virtualenv`` package
+1. Install ``virtualenv`` package
 
 .. code-block:: bash
     
     pip install virtualenv
 
-3. Clone git repository
+2. Clone git repository
 
 .. code-block:: bash
 
     git clone https://github.com/mtjvc/gaia-data-workshop.git
 
-4. Create virtual environment (make sure python 2 is being used) inside
+3. Create virtual environment (make sure python 2 is being used) inside
    the ..gaia-data-workshop directory.
 
 .. code-block:: bash
 
     virtualenv -p /usr/bin/python2.7 venv
 
-5. Activate virtual environment 
+4. Activate virtual environment 
 
 .. code-block:: bash
 
     source venv/bin/activate
 
-6. Install required packages
+5. Install required packages
 
 .. code-block:: bash
 
     pip install -r requirements.txt
 
-7. Start the notebook server and open the notebook
+6. Start the notebook server and open the notebook
 
 .. code-block:: bash
 
