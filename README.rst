@@ -24,7 +24,7 @@ Gaia Data Workshop
     git clone https://github.com/mtjvc/gaia-data-workshop.git
 
 3. Create virtual environment (make sure python 2 is being used) inside
-   the ..gaia-data-workshop directory.
+   the ``gaia-data-workshop`` directory.
 
 .. code-block:: bash
 
