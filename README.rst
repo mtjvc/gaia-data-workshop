@@ -5,7 +5,7 @@ Gaia Data Workshop
 
 **Requirements:**
 
-- python 2 with virtualenv package
+- python 2/3 with virtualenv package
 - git
 - some python and MySQL knowledge
 
